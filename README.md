@@ -171,3 +171,7 @@ http://pan.baidu.com/s/1pJPk6mR
 
     _wremove(path.c_str());
     return false;
+## 捐赠： ##
+如果您觉得这个项目对您有帮助，非常感谢你的捐赠
+
+[![捐赠WeChat.NET](https://img.alipay.com/sys/personalprod/style/mc/btn-index.png)](https://me.alipay.com/xiongpq)
