@@ -1,0 +1,44 @@
+﻿body
+{
+	background: #EEE;
+}
+
+li
+{
+	float: left;
+	margin-left: 20px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #069;
+}
+
+a:hover
+{
+	color: brown;
+}
+
+#fileFont
+{
+	width: 180px!important;
+}
+
+#fileFont-button
+{
+	float: left;
+}
+
+#btnManageFonts
+{
+	margin-left: 10px;
+	float: left;
+}
+
+#btnManageFonts .uploadify-button
+{
+	background-color: #417690;
+}

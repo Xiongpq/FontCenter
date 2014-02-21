@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>Warrentech_FontCenter_Web</Name>
+    <RootNamespace>Warrentech_FontCenter_Web</RootNamespace>
+    <CommandLineArguments />
+    <InterpreterPath />
+    <InterpreterArguments />
+    <DjangoSettingsModule>$(MSBuildProjectName).settings</DjangoSettingsModule>
+    <WebBrowserUrl />
+    <WebBrowserPort>8000</WebBrowserPort>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>787b0f92-5163-4b32-8b7e-50a49b1ba0e9</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="manage.py" />
+    <Compile Include="Warrentech_FontCenter_Web\admin.py" />
+    <Compile Include="Warrentech_FontCenter_Web\BLL\__init__.py" />
+    <Compile Include="Warrentech_FontCenter_Web\Common\__init__.py" />
+    <Compile Include="Warrentech_FontCenter_Web\models\MissingLog.py" />
+    <Compile Include="Warrentech_FontCenter_Web\models\FontModels.py" />
+    <Compile Include="Warrentech_FontCenter_Web\models\__init__.py" />
+    <Compile Include="Warrentech_FontCenter_Web\extras\__init__.py" />
+    <Compile Include="Warrentech_FontCenter_Web\ViewModel\__init__.py" />
+    <Compile Include="Warrentech_FontCenter_Web\views\FontListViews.py" />
+    <Compile Include="Warrentech_FontCenter_Web\views\__init__.py" />
+    <Compile Include="Warrentech_FontCenter_Web\__init__.py" />
+    <Compile Include="Warrentech_FontCenter_Web\settings.py" />
+    <Compile Include="Warrentech_FontCenter_Web\urls.py" />
+    <Compile Include="Warrentech_FontCenter_Web\wsgi.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebPiReference Include="https://www.microsoft.com/web/webpi/3.0/toolsproductlist.xml%3fDjango">
+      <Feed>https://www.microsoft.com/web/webpi/3.0/toolsproductlist.xml</Feed>
+      <ProductId>Django</ProductId>
+      <FriendlyName>Django 1.4</FriendlyName>
+    </WebPiReference>
+    <WebPiReference Include="https://www.microsoft.com/web/webpi/3.0/toolsproductlist.xml%3fPython27">
+      <Feed>https://www.microsoft.com/web/webpi/3.0/toolsproductlist.xml</Feed>
+      <ProductId>Python27</ProductId>
+      <FriendlyName>Python 2.7</FriendlyName>
+    </WebPiReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Warrentech_FontCenter_Web\" />
+    <Folder Include="Warrentech_FontCenter_Web\BLL\" />
+    <Folder Include="Warrentech_FontCenter_Web\Common\" />
+    <Folder Include="Warrentech_FontCenter_Web\extras\" />
+    <Folder Include="Warrentech_FontCenter_Web\models\" />
+    <Folder Include="Warrentech_FontCenter_Web\upload_files\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\css\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\css\pages\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\css\pages\FontList\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\css\pages\FontList\images\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\css\plugins\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\css\plugins\jquery.uploadify\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\css\plugins\jquery.uploadify\flash\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\css\plugins\jquery.uploadify\images\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\js\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\js\common\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\js\libs\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\js\libs\jquery\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\js\pages\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\js\pages\FontList\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\js\plugins\" />
+    <Folder Include="Warrentech_FontCenter_Web\static\js\plugins\jquery.uploadify\" />
+    <Folder Include="Warrentech_FontCenter_Web\templates\FontList\" />
+    <Folder Include="Warrentech_FontCenter_Web\templates\Shared\" />
+    <Folder Include="Warrentech_FontCenter_Web\templates\Shared\Reference\" />
+    <Folder Include="Warrentech_FontCenter_Web\upload_files\cad\" />
+    <Folder Include="Warrentech_FontCenter_Web\upload_files\sys\" />
+    <Folder Include="Warrentech_FontCenter_Web\views\" />
+    <Folder Include="Warrentech_FontCenter_Web\ViewModel\" />
+    <Folder Include="Warrentech_FontCenter_Web\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.conf" />
+    <Content Include="Warrentech_FontCenter_Web\static\css\pages\FontList\FontList.css" />
+    <Content Include="Warrentech_FontCenter_Web\static\css\plugins\jquery.uploadify\flash\uploadify.swf" />
+    <Content Include="Warrentech_FontCenter_Web\static\css\plugins\jquery.uploadify\images\uploadify-button.png" />
+    <Content Include="Warrentech_FontCenter_Web\static\css\plugins\jquery.uploadify\images\uploadify-cancel.png" />
+    <Content Include="Warrentech_FontCenter_Web\static\css\plugins\jquery.uploadify\jquery.uploadify.css" />
+    <Content Include="Warrentech_FontCenter_Web\static\js\common\base.js" />
+    <Content Include="Warrentech_FontCenter_Web\static\js\common\common.js" />
+    <Content Include="Warrentech_FontCenter_Web\static\js\libs\jquery\jquery.js" />
+    <Content Include="Warrentech_FontCenter_Web\static\js\pages\FontList\FontList.js" />
+    <Content Include="Warrentech_FontCenter_Web\static\js\plugins\jquery.uploadify\jquery.uploadify.js" />
+    <Content Include="Warrentech_FontCenter_Web\static\js\plugins\jquery.uploadify\jquery.uploadify.min.js" />
+    <Content Include="Warrentech_FontCenter_Web\static\js\plugins\jquery.uploadify\jquery.uploadify.min.js.map" />
+    <None Include="Warrentech_FontCenter_Web\static\js\libs\jquery\jquery-vsdoc.js" />
+    <Content Include="Warrentech_FontCenter_Web\templates\FontList\uploaded_files.html" />
+    <Content Include="Warrentech_FontCenter_Web\templates\FontList\list.html" />
+    <Content Include="Warrentech_FontCenter_Web\templates\Shared\Reference\jQueryUploadify.html" />
+    <Content Include="Warrentech_FontCenter_Web\templates\Shared\base.html" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

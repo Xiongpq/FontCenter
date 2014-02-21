@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Warrentech.FontCenter.Client", "Warrentech.FontCenter.Client\Warrentech.FontCenter.Client.vcxproj", "{8DD81539-60E7-4AD3-9647-F4DC1FE82362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		2008_Debug|Win32 = 2008_Debug|Win32
+		2008_Debug|x64 = 2008_Debug|x64
+		2008_Release|Win32 = 2008_Release|Win32
+		2008_Release|x64 = 2008_Release|x64
+		2010_Debug|Win32 = 2010_Debug|Win32
+		2010_Debug|x64 = 2010_Debug|x64
+		2010_Release|Win32 = 2010_Release|Win32
+		2010_Release|x64 = 2010_Release|x64
+		2012_Debug|Win32 = 2012_Debug|Win32
+		2012_Debug|x64 = 2012_Debug|x64
+		2012_Release|Win32 = 2012_Release|Win32
+		2012_Release|x64 = 2012_Release|x64
+		2014_Debug|Win32 = 2014_Debug|Win32
+		2014_Debug|x64 = 2014_Debug|x64
+		2014_Release|Win32 = 2014_Release|Win32
+		2014_Release|x64 = 2014_Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2008_Debug|Win32.ActiveCfg = 2008_Debug|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2008_Debug|Win32.Build.0 = 2008_Debug|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2008_Debug|x64.ActiveCfg = 2008_Debug|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2008_Debug|x64.Build.0 = 2008_Debug|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2008_Release|Win32.ActiveCfg = 2008_Release|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2008_Release|Win32.Build.0 = 2008_Release|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2008_Release|x64.ActiveCfg = 2008_Release|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2008_Release|x64.Build.0 = 2008_Release|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2010_Debug|Win32.ActiveCfg = Debug|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2010_Debug|Win32.Build.0 = Debug|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2010_Debug|x64.ActiveCfg = Debug|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2010_Debug|x64.Build.0 = Debug|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2010_Release|Win32.ActiveCfg = Release|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2010_Release|Win32.Build.0 = Release|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2010_Release|x64.ActiveCfg = Release|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2010_Release|x64.Build.0 = Release|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2012_Debug|Win32.ActiveCfg = 2012_Debug|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2012_Debug|Win32.Build.0 = 2012_Debug|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2012_Debug|x64.ActiveCfg = 2012_Debug|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2012_Debug|x64.Build.0 = 2012_Debug|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2012_Release|Win32.ActiveCfg = 2012_Release|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2012_Release|Win32.Build.0 = 2012_Release|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2012_Release|x64.ActiveCfg = 2012_Release|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2012_Release|x64.Build.0 = 2012_Release|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2014_Debug|Win32.ActiveCfg = 2014_Debug|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2014_Debug|Win32.Build.0 = 2014_Debug|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2014_Debug|x64.ActiveCfg = 2014_Debug|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2014_Debug|x64.Build.0 = 2014_Debug|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2014_Release|Win32.ActiveCfg = 2014_Release|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2014_Release|Win32.Build.0 = 2014_Release|Win32
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2014_Release|x64.ActiveCfg = 2014_Release|x64
+		{8DD81539-60E7-4AD3-9647-F4DC1FE82362}.2014_Release|x64.Build.0 = 2014_Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

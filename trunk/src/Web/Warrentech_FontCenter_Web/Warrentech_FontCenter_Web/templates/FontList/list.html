@@ -1,0 +1,36 @@
+﻿{% extends "Shared/base.html" %} 
+
+{% block css %}
+
+<link rel="stylesheet" href="/static/css/pages/FontList/FontList.css" type="text/css" />
+
+{% endblock %}
+
+{% block js %}
+
+<script src="/static/js/pages/FontList/FontList.js" type="text/javascript"></script>
+
+{% endblock %}
+
+{% block head %}
+
+{% include 'Shared/Reference/jQueryUploadify.html' %}
+
+{% endblock %}
+
+{% block content %}
+
+<span>
+<input type="file" name="file" id="fileFont" />
+<a href="/admin/Warrentech_FontCenter_Web/font" id="btnManageFonts">
+<div id="fileFont-button" class="uploadify-button " style="height: 29px; line-height: 29px; width: 80px;"><span class="uploadify-button-text">管理</span></div>
+</a>
+</span>
+
+<ol>
+    {% for font in fonts %}
+	<li><a href="http://bcs.duapp.com/fontcenter/{% if font.sys_font %}sys{% else %}cad{% endif %}/{{ font.postscript_name|lower }}{% if not font.sys_font %}{{ font.file_ext|lower }}{% endif %}.zip">{{ font }}</a></li>
+    {% endfor %}
+</ol>
+
+{% endblock %}

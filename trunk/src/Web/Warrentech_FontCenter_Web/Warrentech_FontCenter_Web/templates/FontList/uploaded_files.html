@@ -1,0 +1,26 @@
+﻿{% extends "Shared/base.html" %} 
+
+{% block css %}
+
+<link rel="stylesheet" href="/static/css/pages/FontList/FontList.css" type="text/css" />
+<style type="text/css">
+
+li{
+float:none;
+width:auto;
+
+}
+
+</style>
+
+{% endblock %}
+
+{% block content %}
+
+<ol>
+    {% for file in files %}
+	<li>{{ file }}</li>
+    {% endfor %}
+</ol>
+
+{% endblock %}

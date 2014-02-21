@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\curl">
+      <UniqueIdentifier>{cccd6252-cfe2-439d-b295-803546cba046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\json">
+      <UniqueIdentifier>{5a96823f-34fc-467b-8c4b-66dda3273909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\json">
+      <UniqueIdentifier>{ef786781-83b6-4381-a153-25b11dc65ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\zip">
+      <UniqueIdentifier>{16c997f3-5233-4ad4-83b5-4e33ee0d2d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zip">
+      <UniqueIdentifier>{f93a1e92-4498-4f1e-95cb-78a4a0d975b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrentech.FontCenter.Client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>源文件\json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>源文件\json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>源文件\json</Filter>
+    </ClCompile>
+    <ClCompile Include="zip\unzip.cpp">
+      <Filter>源文件\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="zip\zip.cpp">
+      <Filter>源文件\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="FontBLL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DocData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\types.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\stdcheaders.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\multi.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\mprintf.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\easy.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curlver.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curl.h">
+      <Filter>头文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_batchallocator.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_tool.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>头文件\json</Filter>
+    </ClInclude>
+    <ClInclude Include="zip\unzip.h">
+      <Filter>头文件\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="zip\zip.h">
+      <Filter>头文件\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="FontBLL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Warrentech.FontCenter.Client.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="json\json_internalarray.inl">
+      <Filter>头文件\json</Filter>
+    </None>
+    <None Include="json\json_internalmap.inl">
+      <Filter>头文件\json</Filter>
+    </None>
+    <None Include="json\json_valueiterator.inl">
+      <Filter>头文件\json</Filter>
+    </None>
+    <None Include="config.ini" />
+  </ItemGroup>
+</Project>
